@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.Locale;
 
 public class Main {
@@ -11,15 +13,18 @@ public class Main {
                  char gender2 = 'F';
                  char gender3 = 'M';
 
-                     double salario1 = 5.50;
+                     float salario1 =  5.50f;
                      double salario2 = 20.50;
                      double salario3 = 15.55;
+                     float horas = 8f;
+                     float dias = 30f;
+                     var teste = salario1 * dias * horas ;
 
         System.out.println("FUNCIONARIOS:" + System.lineSeparator());
 
         System.out.println(funcionario1);
         System.out.println("GENERO: " + gender1);
-        System.out.println(salario1 * 8 * 30 + System.lineSeparator());
+        System.out.println(teste+"0" + System.lineSeparator());
 
         System.out.println(funcionario2);
         System.out.println("GENERO: " + gender2);
@@ -29,6 +34,10 @@ public class Main {
         System.out.println("GENERO: " + gender3);
         System.out.println(salario3 * 8 * 30);
 
+        
+
+
+        
 
 
 
